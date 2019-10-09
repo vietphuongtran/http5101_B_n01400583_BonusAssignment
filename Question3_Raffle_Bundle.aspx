@@ -22,7 +22,7 @@
             <label for="student_booking_amount">Please enter the amount of ticket you want to buy:</label>
             <asp:TextBox runat="server" ID="student_booking_amount"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ControlToValidate="student_booking_amount" ErrorMessage="Please enter a number" EnableClientScript="True"></asp:RequiredFieldValidator>
-            <asp:CompareValidator runat="server" ControlToValidate="student_booking_amount" ErrorMessage="Please enter a positive number" Operator="GreaterThan" ValueToCompare="0" EnableClientScript="true"></asp:CompareValidator>
+            <asp:CompareValidator runat="server" ControlToValidate="student_booking_amount" ErrorMessage="Please enter a positive integer number" Operator="GreaterThan" ValueToCompare="0" EnableClientScript="true" Type="Integer"></asp:CompareValidator>
         </div>
         <div>
              <asp:Button runat="server" text="Submit" />
