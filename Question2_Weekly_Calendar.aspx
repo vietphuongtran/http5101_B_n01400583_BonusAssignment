@@ -59,6 +59,7 @@
                         <asp:ListItem Text="Have fun" Value="have fun"></asp:ListItem>
                     </asp:DropDownList>
                 </div>
+
                 <!--<asp:CheckBoxList runat="server" ID="user_working_days">
                     <asp:ListItem Value="Monday">Monday</asp:ListItem>
                     <asp:ListItem Value="Tuesday">Tuesday</asp:ListItem>
@@ -67,7 +68,7 @@
                     <asp:ListItem Value="Friday">Friday</asp:ListItem>
                     <asp:ListItem Value="Saturday">Saturday</asp:ListItem>
                     <asp:ListItem Value="Sunday">Sunday</asp:ListItem>
-                </asp:CheckBoxList>-->
+                </asp:CheckBoxList> -->
             </div>
               
             <div>
