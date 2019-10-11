@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-            <div>
+            <!--<div>
                 <p>What is your monthly schedule?</p>
                 <div>
                     <label>Monday</label>
@@ -60,7 +60,9 @@
                     </asp:DropDownList>
                 </div>
 
-                <!--<asp:CheckBoxList runat="server" ID="user_working_days">
+                
+            </div> -->
+              <asp:CheckBoxList runat="server" ID="user_working_days">
                     <asp:ListItem Value="Monday">Monday</asp:ListItem>
                     <asp:ListItem Value="Tuesday">Tuesday</asp:ListItem>
                     <asp:ListItem Value="Wednesday">Wednesday</asp:ListItem>
@@ -68,9 +70,7 @@
                     <asp:ListItem Value="Friday">Friday</asp:ListItem>
                     <asp:ListItem Value="Saturday">Saturday</asp:ListItem>
                     <asp:ListItem Value="Sunday">Sunday</asp:ListItem>
-                </asp:CheckBoxList> -->
-            </div>
-              
+                </asp:CheckBoxList>
             <div>
                 <asp:Button runat="server" text="Submit" />
             </div>

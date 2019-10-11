@@ -23,13 +23,13 @@ namespace BonusAssignment_HTTP5101_B_n01400583
                     //I want to loop through the date (Oct 1 is a Tuesday, Oct 2 is Wednesday, ...Oct 31)
                     //Oct 1, Oct 2...Oct 31 can be created by running a loop from 1 - 31
                     //How can I create is a Tuesday, is a Wednesday, is a Thursday?
-                        //1) loop i = i + 1 31 times can displayed as the question required but not ideal as it is long.
-                        //2 ) using i = i + 7 in only displayed like Oct 1 then jumped to Oct 8 (not as exactly as required)
+                    //1) loop i = i + 1 31 times can displayed as the question required but not ideal as the code is not factored.
+                    //2 ) using i = i + 7 in only displayed like Oct 1 then jumped to Oct 8 (not as exactly as required)
                     //I want to display the message It's time to work and It's time to have fun according to the user choice
-                        //using .SelectedValue so whatever user chooses will appear in the InnerHtml.
+                    //using .SelectedValue so whatever user chooses will appear in the InnerHtml.
 
-                    //This is not an ideal method but the closest to the requirement I could think of so far.
-                    for (int i = 1; i<2; i = i+1)
+                    //This is not an ideal , the code is not factored, but the closest to the requirement I could think of so far.
+                    /*for (int i = 1; i<2; i = i+1)
                     {
                         monthly_summary.InnerHtml += "Oct " + i + " is a Tuesday. It is time to " + user_calendar_tuesday.SelectedValue + "<br>";
                     }
@@ -189,21 +189,24 @@ namespace BonusAssignment_HTTP5101_B_n01400583
                         monthly_summary.InnerHtml += "Oct " + i + " is a Monday. Monday is time to " + user_calendar_monday.SelectedValue + "<br>";
                     }*/
 
-                    //This can give me ...is a Tuesday. It's time to work/ have fun
+                    //This can give me "...is a Tuesday. It's time to work/ have fun
                     //But the month loop from 1 - 31 while the date stand still. i.e Oct 1 is a Tuesday, Oct 2 is a Tuesday...Oct 31...
-                    /*foreach (ListItem user_working_day in user_working_days.Items)
+
+                    int count = 1;
+                    foreach (ListItem user_working_day in user_working_days.Items)                    
                     {
                         if (user_working_day.Selected == true)
-                        for (int i = 1; i <= 31; i = i + 1)
-                        {
-                            monthly_summary.InnerHtml += "Oct " + i + " is a " + user_working_day.Value + ". It's time to work <br>";
-                        }
+                            for (int i = 1; i <= 31; i = i++)
+                            {
+                                monthly_summary.InnerHtml += "Oct " + i + " is a " + user_working_day.Value + ". It's time to work <br>";
+                            }
                         else
-                        {
-                            monthly_summary.InnerHtml += "Oct " + i + " is a " + user_working_day.Value + ". It's time to havefun <br>";
-                        }*/
+                            for (int i = 1; i <= 31; i = i++)
+                            {
+                                monthly_summary.InnerHtml += "Oct " + i + "is a " + user_working_day.Value + ". It's time to havefun <br>";
+                            }
+                    }      
                 }
-            }
             }
         }
     }
