@@ -27,7 +27,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583
                     string Bundle_5_Msg = "You have received a bundle of 5!";
                     string Total_Ticket = "Your total ticket(s) is ";
                     string Total_Cost = "and your cost is " + 0.25 * Student_Booking_Amount +" CAD";                    
-
+                    
                     //for less than 50 ticket print out 3 message: Bundle_1_Msg, that is .. ticket and the total price;
                     //That is 1 ticket. That is 2 tickets... is done by running a loop starting from 1 to 50
 
@@ -48,7 +48,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583
                     if (Student_Booking_Amount > 50 && Student_Booking_Amount <= 150)
                     {
                         for (int i = 2; i <= Student_Booking_Amount; i = i + 2)
-                        //Print out the bundle and the that is... message.
+                        //Print out the bundle and the that is... message by running a loop of 2, 4, 6..
                         {
                             bundle_summary.InnerHtml += Bundle_2_Msg;
                             bundle_summary.InnerHtml += "That is " + i + " " + "tickets!" + "<br>";
@@ -86,13 +86,13 @@ namespace BonusAssignment_HTTP5101_B_n01400583
                     if (Student_Booking_Amount > 150 && Student_Booking_Amount <= 300)
                     {
                         for (int i = 3; i <= Student_Booking_Amount; i = i + 3)
-                        //Print out the bundle and that is..message
+                        //Print out the bundle and that is..message by running of loop of 3, 6, 9
                         {
                             bundle_summary.InnerHtml += Bundle_3_Msg;
                             bundle_summary.InnerHtml += "That is " + i + " " + "tickets!" + "<br>";
                         }
                         //Scenario 1: the booking amount is divisible by 3 so there is no leftover.
-                        if (Student_Booking_Amount %3 == 0)
+                        if (Student_Booking_Amount % 3 == 0)
                         {
                             bundle_summary.InnerHtml += Total_Ticket + " " + Student_Booking_Amount + " " + Total_Cost;
                         }
@@ -123,13 +123,13 @@ namespace BonusAssignment_HTTP5101_B_n01400583
                             
                     }
                     //from 301 tickets print out 4 messages: Bundle_3_Msg, that is 5, 10, 15 tickets, the Leftover and the total price;
-                    //That is 5, 10, 15 .... tickets is done by running a loop with i = i + 5
+                    //That is 5, 10, 15, 20 .... tickets is done by running a loop with i = i + 5
                     //The leftover ticket of bundle of 5 has 5 scenarios: 1 leftover, 2 leftovers, 3 leftovers, 4 leftovers and 0 leftover
                     //To factor the code: there will only be 2 scenarios: Ticket amount is divisble by 5 and ticket amount is not divisible by 5
                     if (Student_Booking_Amount >=301)
                     {
                         for (int i=5; i <= Student_Booking_Amount; i = i + 5)
-                        //print out the bundle and the that is...message
+                        //print out the bundle and the that is...message by running a loop of 5
                         {
                             bundle_summary.InnerHtml += Bundle_5_Msg;
                             bundle_summary.InnerHtml += "That is " + i + " " + "tickets!" + "<br>";

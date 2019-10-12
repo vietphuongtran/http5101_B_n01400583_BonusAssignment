@@ -24,7 +24,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583
                     string Quadrant_2 = "Your point is in Quadrant II";
                     string Quadrant_3 = "Your point is in Quadrant III";
                     string Quadrant_4 = "Your point is in Quadrant IV";
-                    //If x ! = 0 && y !=0 then there is 4 scenarios: 
+                    //If x ! = 0 && y !=0 then there will be 4 scenarios: 
                     //1. if x > 0 AND y > 0 => Quadrant 1
                     //2. if x < 0 AND y > 0 => Quadrant 2
                     //3. if x < 0 AND y < 0 => Quadrant 3
