@@ -36,37 +36,37 @@ namespace BonusAssignment_HTTP5101_B_n01400583
                         //Monday is 7, 14, 21, 28 so if the date (i) is divisible by 7 it must be a Monday
                         if (i % 7 == 0) 
                         {
-                            monthly_summary.InnerHtml += "Oct " + i + " is a Monday. It is time to " + user_calendar_monday.SelectedValue + "<br>";
+                            monthly_summary.InnerHtml += "Oct " + i + " is a Monday. Time to " + user_calendar_monday.SelectedValue + "<br>";
                         }
                         //Tuesday is 8, 15, 22, 29 so if a date divided by 7 having the remainder of 1 it must be Tuesday
                         if (i % 7 == 1) 
                         {
-                            monthly_summary.InnerHtml += "Oct " + i + " is a Tuesday. It is time to " + user_calendar_tuesday.SelectedValue + "<br>";
+                            monthly_summary.InnerHtml += "Oct " + i + " is a Tuesday. Time to " + user_calendar_tuesday.SelectedValue + "<br>";
                         }
                         //Similarly Wednesday must be a date having the remainder of 2 when divided by 7
                         if (i % 7 == 2) 
                         {
-                            monthly_summary.InnerHtml += "Oct " + i + " is a Wednesday. It is time to " + user_calendar_wednesday.SelectedValue + "<br>";
+                            monthly_summary.InnerHtml += "Oct " + i + " is a Wednesday. Time to " + user_calendar_wednesday.SelectedValue + "<br>";
                         }
                         //Thursday will have the remainder of 3 when divided by 7
                         if (i % 7 == 3)
                         {
-                            monthly_summary.InnerHtml += "Oct " + i + " is a Thursday. It is time to " + user_calendar_thursday.SelectedValue + "<br>";
+                            monthly_summary.InnerHtml += "Oct " + i + " is a Thursday. Time to " + user_calendar_thursday.SelectedValue + "<br>";
                         }
                         //Friday will have the remainder of 4 when divided by 7
                         if (i % 7 == 4)                        
                         {
-                            monthly_summary.InnerHtml += "Oct " + i + " is a Friday. It is time to " + user_calendar_friday.SelectedValue + "<br>";
+                            monthly_summary.InnerHtml += "Oct " + i + " is a Friday. Time to " + user_calendar_friday.SelectedValue + "<br>";
                         }
                         //Saturday will have the remainder of 5 when divided by 7
                         if (i % 7 == 5)
                         {
-                            monthly_summary.InnerHtml += "Oct " + i + " is a Saturday. It is time to " + user_calendar_saturday.SelectedValue + "<br>";
+                            monthly_summary.InnerHtml += "Oct " + i + " is a Saturday. Time to " + user_calendar_saturday.SelectedValue + "<br>";
                         }
                         //Sunday will have the remainder of 6
                         if (i % 7 == 6)
                         {
-                            monthly_summary.InnerHtml += "Oct " + i + " is a Sunday. It is time to " + user_calendar_sunday.SelectedValue + "<br>";
+                            monthly_summary.InnerHtml += "Oct " + i + " is a Sunday. Time to " + user_calendar_sunday.SelectedValue + "<br>";
                         }
 
 

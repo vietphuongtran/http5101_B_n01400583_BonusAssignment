@@ -36,7 +36,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583
                         for (int i = 1; i <= Student_Booking_Amount; i++)
                         {
                             bundle_summary.InnerHtml += Bundle_1_Msg;
-                            bundle_summary.InnerHtml += "That is " + i + " " + "ticket(s)!" + "<br>";
+                            bundle_summary.InnerHtml += " That is " + i + " " + "ticket(s)!" + "<br>";
                         }
                         bundle_summary.InnerHtml += Total_Ticket + " " + Student_Booking_Amount + " " + Total_Cost;
                     }
@@ -51,7 +51,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583
                         //Print out the bundle and the that is... message by running a loop of 2, 4, 6..
                         {
                             bundle_summary.InnerHtml += Bundle_2_Msg;
-                            bundle_summary.InnerHtml += "That is " + i + " " + "tickets!" + "<br>";
+                            bundle_summary.InnerHtml += " That is " + i + " " + "tickets!" + "<br>";
                         }
                         //Scenario 1: ticket amount is divisible by 2 so there is no leftover
                         if (Student_Booking_Amount % 2 == 0)
@@ -89,7 +89,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583
                         //Print out the bundle and that is..message by running of loop of 3, 6, 9
                         {
                             bundle_summary.InnerHtml += Bundle_3_Msg;
-                            bundle_summary.InnerHtml += "That is " + i + " " + "tickets!" + "<br>";
+                            bundle_summary.InnerHtml += " That is " + i + " " + "tickets!" + "<br>";
                         }
                         //Scenario 1: the booking amount is divisible by 3 so there is no leftover.
                         if (Student_Booking_Amount % 3 == 0)
@@ -132,7 +132,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583
                         //print out the bundle and the that is...message by running a loop of 5
                         {
                             bundle_summary.InnerHtml += Bundle_5_Msg;
-                            bundle_summary.InnerHtml += "That is " + i + " " + "tickets!" + "<br>";
+                            bundle_summary.InnerHtml += " That is " + i + " " + "tickets!" + "<br>";
                         }
                         //Scenario 1: the booking amount is divisible by 5: no leftover, print out total cost and total ticket
                         if (Student_Booking_Amount % 5 == 0)
