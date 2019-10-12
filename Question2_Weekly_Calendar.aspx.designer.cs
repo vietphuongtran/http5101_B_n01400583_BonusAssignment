@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BonusAssignment_HTTP5101_B_n01400583 {
-    
-    
-    public partial class Weekly_Calendar {
-        
+namespace BonusAssignment_HTTP5101_B_n01400583
+{
+
+
+    public partial class Weekly_Calendar_Testing
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// user_calendar_monday control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList user_calendar_monday;
-        
+
         /// <summary>
         /// user_calendar_tuesday control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList user_calendar_tuesday;
-        
+
         /// <summary>
         /// user_calendar_wednesday control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList user_calendar_wednesday;
-        
+
         /// <summary>
         /// user_calendar_thursday control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList user_calendar_thursday;
-        
+
         /// <summary>
         /// user_calendar_friday control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList user_calendar_friday;
-        
+
         /// <summary>
         /// user_calendar_saturday control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList user_calendar_saturday;
-        
+
         /// <summary>
         /// user_calendar_sunday control.
         /// </summary>
@@ -83,16 +85,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList user_calendar_sunday;
-        
-        /// <summary>
-        /// user_working_days control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList user_working_days;
-        
+
         /// <summary>
         /// monthly_summary control.
         /// </summary>
