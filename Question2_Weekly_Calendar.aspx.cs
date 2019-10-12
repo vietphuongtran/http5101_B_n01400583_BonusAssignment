@@ -16,7 +16,7 @@ namespace BonusAssignment_HTTP5101_B_n01400583
                 Page.Validate();
                 if (Page.IsValid)
                 {
-                    monthly_summary.InnerHtml = "";
+                    monthly_summary.InnerHtml = " ";
 
                     //I) I want to loop through the date (Oct 1 is a Tuesday, Oct 2 is Wednesday, ...Oct 31)
                     //Oct 1, Oct 2...Oct 31 can be created by running a loop from 1 - 31
